@@ -22,7 +22,8 @@ p {
 }
 
 .why {
-  margin-bottom: 18rem;
+  max-width: 1440px;
+  padding-bottom: 18rem;
 }
 
 .community-bock p {
