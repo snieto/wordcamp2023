@@ -36,6 +36,7 @@ p {
 }
 .community-bock p {
   /* Heading 3 */
+  font-family: Space Grotesk;
   font-size: 4.25rem;
   font-style: normal;
   font-weight: 700;
