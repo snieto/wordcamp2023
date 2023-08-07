@@ -1,0 +1,31 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  --wp--style--global--content-size: 960px;
+  --wp--style--global--wide-size: 1200px;
+}
+
+:root {
+  --wp--style--global--content-size: 1024px;
+}
+
+h1 {
+  color: var(--principal-orange, #EB4511);
+  font-family: Space Grotesk;
+  font-size: 7.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 6.875rem; /* 91.667% */
+}
+h1 span {
+  color: var(--white, #FFF);
+  font-size: 11.875rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+/*# sourceMappingURL=main.css.map */

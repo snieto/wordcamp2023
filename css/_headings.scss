@@ -1,0 +1,17 @@
+h1{
+    color: var(--principal-orange, $orange);
+    font-family: Space Grotesk;
+    font-size: 7.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 6.875rem; /* 91.667% */
+
+    
+    span{
+        color: var(--white, $principal-white);
+        font-size: 11.875rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+}
