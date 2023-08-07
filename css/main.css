@@ -26,14 +26,16 @@ p {
   padding-bottom: 18rem;
 }
 
+.community-bock {
+  background: transparent url(/2023/files/2023/08/wp-community.jpg) top left no-repeat;
+  background-size: cover;
+}
 .community-bock p {
   /* Heading 3 */
   font-size: 6.25rem;
   font-style: normal;
   font-weight: 700;
   line-height: 6.875rem; /* 110% */
-  background: transparent url(/2023/files/2023/08/wp-community.jpg) top left no-repeat;
-  background-size: cover;
 }
 .community-bock p .lighter {
   font-family: Poppins;
