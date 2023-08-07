@@ -23,19 +23,23 @@ p {
 
 .why {
   max-width: 1440px;
-  padding-bottom: 18rem;
+  padding-bottom: 15rem;
 }
 
 .community-bock {
+  font-family: Space Grotesk;
   background: transparent url(/2023/files/2023/08/wp-community.jpg) top left no-repeat;
   background-size: cover;
+  padding: 2rem 0;
+  margin-left: -4.5rem;
+  width: calc(100% + 9rem);
 }
 .community-bock p {
   /* Heading 3 */
-  font-size: 6.25rem;
+  font-size: 4.25rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 6.875rem; /* 110% */
+  line-height: 4.875rem; /* 110% */
 }
 .community-bock p .lighter {
   font-family: Poppins;
@@ -43,7 +47,7 @@ p {
   font-weight: 300;
 }
 .community-bock p .font-bordered {
-  color: rgba(0, 0, 0, 0);
+  color: rgb(0, 0, 0);
   -webkit-text-stroke: 1px white;
   text-shadow: -1px 0px 0px white, 1px 0px 0px white, 0px -1px 0px white, 0px 1px 0px white;
 }
