@@ -1,17 +1,248 @@
-/* Error: expected ")".
- *     ,
- * 131 |         color: var(--principal-black, $dark-grey;
- *     |                                                 ^
- *     '
- *   css/main.scss 131:49  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected ")".\a     \2577 \a 131 \2502          color: var(--principal-black, $dark-grey;\a     \2502                                                  ^\a     \2575 \a   css/main.scss 131:49  root stylesheet';
+:root {
+  --wp--style--global--content-size: 1024px;
 }
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  --wp--style--global--content-size: 1014px !important;
+  --wp--style--global--wide-size: 1200px;
+}
+
+body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+  max-width: 1920px;
+}
+
+p {
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+}
+
+.textcenter {
+  text-align: center;
+}
+
+.bgwhite {
+  background-color: white !important;
+  color: #1E212B !important;
+}
+.bgwhite .wp-block-heading {
+  color: #1E212B !important;
+}
+
+h1 {
+  color: var(--principal-orange, #EB4511);
+  font-family: Space Grotesk;
+  font-size: 7.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 6.875rem; /* 91.667% */
+  position: relative;
+  margin-bottom: 6.5rem;
+}
+h1 span {
+  color: var(--white, #FFF);
+  font-size: 11.875rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  position: absolute;
+  right: 0;
+  top: 85px;
+}
+
+h2 {
+  /* Heading 5 */
+  font-family: Space Grotesk;
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.wp-block-button.big a.wp-block-button__link,
+.wp-block-button.shop-button a.wp-block-button__link {
+  border-radius: 0.9rem !important;
+  border: 1px solid white;
+  text-transform: uppercase;
+  font-size: 1.125rem !important;
+  background: transparent url(/2023/files/2023/08/arrow-icon.png) no-repeat top left;
+  padding: 1.69rem 200px 1.69rem 4rem;
+  background-position: 17rem;
+}
+
+.wp-block-button.small a.wp-block-button__link {
+  border-radius: 0.9rem !important;
+  border: 1px solid white;
+  text-transform: uppercase;
+  font-size: 1.125rem !important;
+  background: #1E212B url(/2023/files/2023/08/arrow-icon-black-small.png) no-repeat top left;
+  padding: 1.69rem 9rem 1.69rem 2.5rem;
+  background-position: 8rem;
+}
+
+.wp-block-button.green a.wp-block-button__link {
+  background-image: url(/2023/files/2023/08/arrow-icon-green-small.png);
+  background-color: #489FB5;
+}
+
+.wp-block-group.is-layout-constrained.wp-block-group-is-layout-constrained {
+  padding: 25px;
+}
+
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
+  background-color: var(--wp--preset--color--tertiary);
+  border: 0px;
+}
+
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container li:hover {
+  background-color: var(--wp--preset--color--primary);
+  color: #fff;
+}
+
+p.wp-block-post-excerpt__excerpt {
+  font-size: 16px;
+}
+
+button.wp-block-search__button.has-text-color.has-foreground-color.has-background.has-background-background-color.wp-element-button {
+  padding: 4px;
+}
+
+.columna-blog {
+  min-width: 300px;
+}
+
+.wordcamp-block {
+  max-width: 1048px !important;
+  margin-bottom: 20.4rem;
+}
+.wordcamp-block p {
+  margin-bottom: 3.2rem;
+}
+
+.why-block {
+  padding-bottom: 15rem;
+}
+.why-block h2 {
+  margin-bottom: 9.2rem;
+}
+.why-block h4 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 125% */
+}
+.why-block figure {
+  margin-bottom: 1.9rem;
+}
+.why-block p {
+  margin-block-start: 1rem;
+}
+
+.community-bock {
+  font-family: Space Grotesk;
+  background: transparent url(/2023/files/2023/08/wp-community.jpg) top left no-repeat;
+  background-size: cover;
+  padding-top: 2.5rem !important;
+  padding-bottom: 10rem !important;
+  width: calc(100% + 9rem);
+}
+.community-bock figure {
+  margin-bottom: 3.5rem;
+}
+.community-bock p {
+  /* Heading 3 */
+  font-family: Space Grotesk;
+  font-size: 4.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4.875rem; /* 110% */
+}
+.community-bock p .lighter {
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: 300;
+}
+.community-bock p .font-bordered {
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke: 1px white;
+  text-shadow: -1px 0px 0px white, 1px 0px 0px white, 0px -1px 0px white, 0px 1px 0px white;
+}
+
+.roles-block {
+  margin-top: 0;
+  padding-top: 6.875rem;
+  padding-bottom: 9.2rem;
+}
+.roles-block .wp-block-columns {
+  padding-left: 5rem;
+}
+.roles-block h5 {
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.roles-block p {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.for-all-block {
+  padding-top: 10rem;
+}
+.for-all-block h3 {
+  /* Heading 3 */
+  font-size: 6.25rem;
+  font-weight: 700;
+  line-height: 6.875rem; /* 110% */
+  margin-bottom: 5rem;
+}
+.for-all-block h5 {
+  color: var(--principal-orange, #EB4511);
+  /* Heading 5 */
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: normal;
+}
+.for-all-block p {
+  padding-bottom: 4rem;
+}
+.for-all-block p:after {
+  opacity: 0.5;
+  background: var(--white, #FFF);
+}
+
+.schools h6 {
+  /* Heading 6 */
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.5rem; /* 125% */
+}
+
+.the-event-block .item {
+  color: var(--principal-black, #1E212B);
+  font-family: Poppins;
+  font-size: 3.5rem;
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
+}
+.the-event-block .item span {
+  color: #EB4511;
+  font-family: Inter;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.5rem; /* 125% */
+}
+
+/*# sourceMappingURL=main.css.map */
