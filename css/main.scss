@@ -116,3 +116,32 @@
         }
     }
 }
+.schools{
+    h6{
+        /* Heading 6 */
+        font-family: Poppins;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 2.5rem; /* 125% */
+    }
+}
+.the-event-block{
+    .item{
+        color: var(--principal-black, $dark-grey;
+        font-family: Poppins;
+        font-size: 3.5rem;
+        font-style: italic;
+        font-weight: 300;
+        line-height: normal;
+
+        span{
+            color: $orange;
+            font-family: Inter;
+            font-size: 2rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 2.5rem; /* 125% */
+        }
+    }
+}
