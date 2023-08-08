@@ -84,7 +84,7 @@ h2 {
   font-size: 1.125rem !important;
   background: #1E212B url(/2023/files/2023/08/arrow-icon-black-small.png) no-repeat top left;
   padding: 1.69rem 9rem 1.69rem 2.5rem;
-  background-position: 17rem;
+  background-position: 8rem;
 }
 
 .wp-block-button.green a.wp-block-button__link {
@@ -179,6 +179,9 @@ button.wp-block-search__button.has-text-color.has-foreground-color.has-backgroun
   margin-top: 0;
   padding-top: 6.875rem;
   padding-bottom: 9.2rem;
+}
+.roles-block .wp-block-columns {
+  padding-left: 5rem;
 }
 .roles-block h5 {
   font-size: 3.5rem;
