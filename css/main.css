@@ -202,6 +202,7 @@ button.wp-block-search__button.has-text-color.has-foreground-color.has-backgroun
   font-size: 6.25rem;
   font-weight: 700;
   line-height: 6.875rem; /* 110% */
+  margin-bottom: 5rem;
 }
 .for-all-block h5 {
   color: var(--principal-orange, #EB4511);
@@ -213,7 +214,7 @@ button.wp-block-search__button.has-text-color.has-foreground-color.has-backgroun
 .for-all-block p {
   padding-bottom: 4rem;
 }
-.for-all-block p:first:after {
+.for-all-block p:after {
   opacity: 0.5;
   background: var(--white, #FFF);
 }
