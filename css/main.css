@@ -95,10 +95,16 @@ p {
   background-color: white;
   color: #1E212B;
 }
+.bgwhite .wp-block-heading {
+  color: #1E212B;
+}
 
 .why {
   max-width: 1920px;
   padding-bottom: 15rem;
+}
+.why h2 {
+  margin-bottom: 9.2rem;
 }
 
 .community-bock {
@@ -126,6 +132,12 @@ p {
   color: rgb(0, 0, 0);
   -webkit-text-stroke: 1px white;
   text-shadow: -1px 0px 0px white, 1px 0px 0px white, 0px -1px 0px white, 0px 1px 0px white;
+}
+
+.roles-block {
+  margin-top: 0;
+  padding-top: 6.875rem;
+  padding-bottom: 9.2rem;
 }
 
 /*# sourceMappingURL=main.css.map */
