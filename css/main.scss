@@ -92,5 +92,26 @@
     }
 }
 .for-all-block{
-    
+    padding-top: 10rem;
+
+    h3{
+        /* Heading 3 */
+        font-size: 6.25rem;
+        font-weight: 700;
+        line-height: 6.875rem; /* 110% */
+    }
+    h5{
+        color: var(--principal-orange, $orange);
+        /* Heading 5 */
+        font-size: 3.5rem;
+        font-weight: 700;
+        line-height: normal;
+    }
+    p{
+        padding-bottom: 4rem;
+        &:first:after{
+            opacity: 0.5;
+            background: var(--white, #FFF);
+        }
+    }
 }

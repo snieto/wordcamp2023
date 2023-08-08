@@ -194,4 +194,28 @@ button.wp-block-search__button.has-text-color.has-foreground-color.has-backgroun
   margin-bottom: 1.5rem;
 }
 
+.for-all-block {
+  padding-top: 10rem;
+}
+.for-all-block h3 {
+  /* Heading 3 */
+  font-size: 6.25rem;
+  font-weight: 700;
+  line-height: 6.875rem; /* 110% */
+}
+.for-all-block h5 {
+  color: var(--principal-orange, #EB4511);
+  /* Heading 5 */
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: normal;
+}
+.for-all-block p {
+  padding-bottom: 4rem;
+}
+.for-all-block p:first:after {
+  opacity: 0.5;
+  background: var(--white, #FFF);
+}
+
 /*# sourceMappingURL=main.css.map */
