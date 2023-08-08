@@ -82,12 +82,13 @@ h2 {
   border: 1px solid white;
   text-transform: uppercase;
   font-size: 1.125rem !important;
-  background: transparent url(/2023/files/2023/08/arrow-icon.png) no-repeat top left;
-  padding: 1.69rem 200px 1.69rem 4rem;
+  background: transparent url(/2023/files/2023/08/arrow-icon-black-small.png) no-repeat top left;
+  padding: 1.69rem 9rem 1.69rem 2.5rem;
   background-position: 17rem;
 }
 
 .wp-block-button.green a.wp-block-button__link {
+  background: #489FB5 url(/2023/files/2023/08/arrow-icon-green-black.png) no-repeat top left;
   background-color: #489FB5;
 }
 
@@ -183,6 +184,7 @@ button.wp-block-search__button.has-text-color.has-foreground-color.has-backgroun
   font-size: 3.5rem;
   font-style: normal;
   font-weight: 700;
+  line-height: normal;
 }
 .roles-block p {
   margin-top: 1rem;
