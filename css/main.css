@@ -224,7 +224,7 @@ button.wp-block-search__button.has-text-color.has-foreground-color.has-backgroun
 }
 
 .schools {
-  padding-bottom: 10rem;
+  padding-bottom: 10rem !important;
 }
 .schools h6 {
   margin-bottom: 4rem;
