@@ -168,13 +168,18 @@
     }
 }
 .sponsors-block{
-    padding: 4.25rem auto 35rem;
+    padding: 4.25rem 1rem 35rem;
     h2{
         @include heading3;
     }
 
     .gold, .silver, .bronze{
         border-radius: 3.125rem;
+        text-align: center;
+
+        h3{
+            @include heading3;
+        }
     }
     .gold{
         background: var(--principal-orange, $orange);
