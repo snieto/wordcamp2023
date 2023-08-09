@@ -168,12 +168,14 @@
     }
 }
 .sponsors-block{
-    padding: 4.25rem 1rem 35rem;
+    padding: 10rem 1rem;
+    
     h2{
         @include heading3;
     }
-
+    
     .gold, .silver, .bronze{
+        padding: 4.25rem 1rem 35rem;
         border-radius: 3.125rem;
         text-align: center;
 
