@@ -121,7 +121,7 @@
     }
 }
 .schools{
-    padding-bottom: 10rem !important;
+    padding-bottom: 9rem !important;
 
     h6{
         margin-bottom: 4rem;
@@ -131,6 +131,10 @@
     background-color: $principal-white;
     padding-top: 10rem;
     padding-bottom: 8rem;
+    h2{
+        @include heading3;
+        color: $dark-grey;
+    }
     .items{
         padding: 0 4rem;
     }

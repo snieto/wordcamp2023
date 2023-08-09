@@ -224,7 +224,7 @@ button.wp-block-search__button.has-text-color.has-foreground-color.has-backgroun
 }
 
 .schools {
-  padding-bottom: 10rem !important;
+  padding-bottom: 9rem !important;
 }
 .schools h6 {
   margin-bottom: 4rem;
@@ -234,6 +234,16 @@ button.wp-block-search__button.has-text-color.has-foreground-color.has-backgroun
   background-color: #FFF;
   padding-top: 10rem;
   padding-bottom: 8rem;
+}
+.the-event-block h2 {
+  color: var(--white, #FFF);
+  /* Heading 3 */
+  font-family: Space Grotesk;
+  font-size: 6.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 6.875rem; /* 110% */
+  color: #1E212B;
 }
 .the-event-block .items {
   padding: 0 4rem;
