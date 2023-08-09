@@ -237,22 +237,18 @@ button.wp-block-search__button.has-text-color.has-foreground-color.has-backgroun
   padding: 0 4rem;
 }
 .the-event-block .item {
+  display: block;
   color: var(--principal-black, #1E212B);
   font-family: Poppins;
   font-size: 3.5rem;
   font-style: italic;
   font-weight: 300;
   line-height: normal;
-  padding-bottom: 4rem;
-}
-.the-event-block .item:after {
-  content: "";
+  margin-bottom: 4rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='102' height='30' viewBox='0 0 102 30' fill='none'%3E%3Cpath d='M101.414 16.4142C102.195 15.6332 102.195 14.3668 101.414 13.5858L88.6863 0.857864C87.9052 0.0768156 86.6389 0.0768156 85.8579 0.857864C85.0768 1.63891 85.0768 2.90524 85.8579 3.68629L97.1716 15L85.8579 26.3137C85.0768 27.0948 85.0768 28.3611 85.8579 29.1421C86.6389 29.9232 87.9052 29.9232 88.6863 29.1421L101.414 16.4142ZM0 17H100V13H0L0 17Z' fill='%231E212B'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right center;
   border-bottom: 0.0625rem solid #1E212B;
-  width: 100%;
-  display: block;
-  padding-top: 3rem;
-  height: 0.0625rem;
-  line-height: 0.0625rem;
 }
 .the-event-block .item span {
   color: #EB4511;
