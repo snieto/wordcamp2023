@@ -1,8 +1,11 @@
 @mixin button{
+    font-family: Space Grotesk;
     border-radius: 0.9rem !important;
     border: 1px solid white;
     text-transform: uppercase;
     font-size: 1.125rem !important;
+    font-weight: 700;
+    line-height: normal;
 }
 .wp-block-button.big a.wp-block-button__link,
 .wp-block-button.shop-button a.wp-block-button__link{
@@ -14,8 +17,8 @@
 .wp-block-button.small  a.wp-block-button__link{
     @include button;
     background: $dark-grey url(/2023/files/2023/08/arrow-icon-black-small.png) no-repeat top left;
-    padding: 1.69rem 9rem 1.69rem 2.5rem;
-    background-position: 8rem;
+    padding: 1.69rem 10rem 1.69rem 2.5rem;
+    background-position: 10rem;
 }
 .wp-block-button.green  a.wp-block-button__link{
     background-image: url(/2023/files/2023/08/arrow-icon-green-small.png);

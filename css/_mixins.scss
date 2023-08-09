@@ -18,3 +18,13 @@
     font-weight: 700;
     line-height: normal;
 }
+@mixin heading6{
+    color: var(--white, $principal-white);
+
+    /* Heading 6 */
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.5rem; /* 125% */
+}

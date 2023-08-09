@@ -59,23 +59,29 @@ h1 span {
 
 .wp-block-button.big a.wp-block-button__link,
 .wp-block-button.shop-button a.wp-block-button__link {
+  font-family: Space Grotesk;
   border-radius: 0.9rem !important;
   border: 1px solid white;
   text-transform: uppercase;
   font-size: 1.125rem !important;
+  font-weight: 700;
+  line-height: normal;
   background: transparent url(/2023/files/2023/08/arrow-icon.png) no-repeat top left;
   padding: 1.69rem 200px 1.69rem 4rem;
   background-position: 17rem;
 }
 
 .wp-block-button.small a.wp-block-button__link {
+  font-family: Space Grotesk;
   border-radius: 0.9rem !important;
   border: 1px solid white;
   text-transform: uppercase;
   font-size: 1.125rem !important;
+  font-weight: 700;
+  line-height: normal;
   background: #1E212B url(/2023/files/2023/08/arrow-icon-black-small.png) no-repeat top left;
-  padding: 1.69rem 9rem 1.69rem 2.5rem;
-  background-position: 8rem;
+  padding: 1.69rem 10rem 1.69rem 2.5rem;
+  background-position: 10rem;
 }
 
 .wp-block-button.green a.wp-block-button__link {
@@ -212,18 +218,16 @@ button.wp-block-search__button.has-text-color.has-foreground-color.has-backgroun
 .for-all-block p {
   padding-bottom: 4rem;
 }
-.for-all-block p:after {
+.for-all-block .wp-block-column:after {
   opacity: 0.5;
   background: var(--white, #FFF);
 }
 
+.schools {
+  padding-bottom: 10rem;
+}
 .schools h6 {
-  /* Heading 6 */
-  font-family: Poppins;
-  font-size: 2rem;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 2.5rem; /* 125% */
+  margin-bottom: 4rem;
 }
 
 .the-event-block {

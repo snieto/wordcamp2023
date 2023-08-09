@@ -112,6 +112,8 @@
     }
     p{
         padding-bottom: 4rem;
+    }
+    .wp-block-column{
         &:after{
             opacity: 0.5;
             background: var(--white, #FFF);
@@ -119,13 +121,10 @@
     }
 }
 .schools{
+    padding-bottom: 10rem;
+    
     h6{
-        /* Heading 6 */
-        font-family: Poppins;
-        font-size: 2rem;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 2.5rem; /* 125% */
+        margin-bottom: 4rem;
     }
 }
 .the-event-block{
