@@ -167,3 +167,23 @@
         }
     }
 }
+.sponsors-block{
+    padding: 4.25rem auto 35rem;
+    h2{
+        @include heading3;
+    }
+
+    .gold, .silver, .bronze{
+        border-radius: 3.125rem;
+    }
+    .gold{
+        background: var(--principal-orange, $orange);
+    }
+    .silver{
+        color: $dark-grey;
+        background: var(--principal-orange, $light-grey);
+    }
+    .bronze{
+        background: var(--principal-orange, $secondary-green);
+    }
+}

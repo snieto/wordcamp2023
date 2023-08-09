@@ -274,4 +274,30 @@ button.wp-block-search__button.has-text-color.has-foreground-color.has-backgroun
   padding-left: 1rem;
 }
 
+.sponsors-block {
+  padding: 4.25rem auto 35rem;
+}
+.sponsors-block h2 {
+  color: var(--white, #FFF);
+  /* Heading 3 */
+  font-family: Space Grotesk;
+  font-size: 6.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 6.875rem; /* 110% */
+}
+.sponsors-block .gold, .sponsors-block .silver, .sponsors-block .bronze {
+  border-radius: 3.125rem;
+}
+.sponsors-block .gold {
+  background: var(--principal-orange, #EB4511);
+}
+.sponsors-block .silver {
+  color: #1E212B;
+  background: var(--principal-orange, #D9D9D9);
+}
+.sponsors-block .bronze {
+  background: var(--principal-orange, #489FB5);
+}
+
 /*# sourceMappingURL=main.css.map */
