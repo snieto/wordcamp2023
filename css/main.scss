@@ -244,7 +244,7 @@
     }
     li:nth-child(2){
         border-radius: 1.5625rem;
-        background: var(--dark-blue, #1E212B);
+        background: var(--dark-blue, $dark-grey);
         /* Drop Shadow */
         box-shadow: 5px 10px 50px 0px rgba(17, 17, 43, 0.05);
 
@@ -253,7 +253,7 @@
         }
     }
     .a{
-        color: var(--principal-black, $dark-grey;
+        color: var(--principal-black, $dark-grey);
         font-family: Inter;
         font-size: 2rem;
         font-style: normal;
