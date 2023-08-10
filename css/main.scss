@@ -175,24 +175,30 @@
         @include heading3;
     }
     .wp-block-columns{
-        margin-bottom: 5.5rem;
+        margin-bottom: 7rem;
     }
     
     .gold, .silver, .bronze{
         padding: 4.25rem 1rem 35rem;
         border-radius: 3.125rem;
         text-align: center;
+        margin-top: 0;
+        margin-bottom: 2.65rem;
 
         h3{
             @include heading3;
             margin-top: 0;
+        }
+        p{
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
         }
     }
     .gold{
         background: var(--principal-orange, $orange);
     }
     .silver{
-        color: $dark-grey;
+        color: $dark-grey !important;
         background: var(--principal-orange, $light-grey);
     }
     .bronze{
