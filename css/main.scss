@@ -69,13 +69,9 @@
         margin-bottom: 3.5rem;
     }
 
+
     p{
-        /* Heading 3 */
-        font-family: Space Grotesk;
-        font-size: 4.25rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 4.875rem; /* 110% */
+        @include heading3;
 
         .lighter{
             font-family: Poppins;
