@@ -208,3 +208,8 @@
         background: var(--principal-orange, $secondary-green);
     }
 }
+.faqs{
+    h3{
+        @include heading3;
+    }
+}
