@@ -113,18 +113,11 @@
     padding-top: 10rem;
 
     h3{
-        /* Heading 3 */
-        font-size: 6.25rem;
-        font-weight: 700;
-        line-height: 6.875rem; /* 110% */
-        margin-bottom: 5rem;
+        @include heading6;
     }
     h5{
+        @include heading5;
         color: var(--principal-orange, $orange);
-        /* Heading 5 */
-        font-size: 3.5rem;
-        font-weight: 700;
-        line-height: normal;
     }
     p{
         padding-bottom: 4rem;
@@ -162,7 +155,7 @@
         font-family: Poppins;
         font-size: 3.5rem;
         font-style: italic;
-        font-weight: 300;
+        font-weight: 600;
         line-height: normal;
         margin-bottom: 4rem;
         padding-bottom: 3rem;
@@ -233,6 +226,7 @@
 }
 .last-news-block{
     background-color: $principal-white;
+    color: $dark-grey !important;
 
     h2{
         @include heading3;

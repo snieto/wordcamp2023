@@ -233,18 +233,23 @@ h1 {
   padding-top: 10rem;
 }
 .for-all-block h3 {
-  /* Heading 3 */
-  font-size: 6.25rem;
-  font-weight: 700;
-  line-height: 6.875rem; /* 110% */
-  margin-bottom: 5rem;
+  color: var(--white, #FFF);
+  /* Heading 6 */
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.5rem; /* 125% */
 }
 .for-all-block h5 {
-  color: var(--principal-orange, #EB4511);
+  color: var(--white, #FFF);
   /* Heading 5 */
+  font-family: Space Grotesk;
   font-size: 3.5rem;
+  font-style: normal;
   font-weight: 700;
   line-height: normal;
+  color: var(--principal-orange, #EB4511);
 }
 .for-all-block p {
   padding-bottom: 4rem;
@@ -286,7 +291,7 @@ h1 {
   font-family: Poppins;
   font-size: 3.5rem;
   font-style: italic;
-  font-weight: 300;
+  font-weight: 600;
   line-height: normal;
   margin-bottom: 4rem;
   padding-bottom: 3rem;
@@ -371,6 +376,7 @@ h1 {
 
 .last-news-block {
   background-color: #FFF;
+  color: #1E212B !important;
 }
 .last-news-block h2 {
   color: var(--white, #FFF);
