@@ -129,6 +129,10 @@ h1 {
   border-top: 1px solid #ccc;
 }
 
+body.home {
+  background-color: #FFF;
+}
+
 .wordcamp-block {
   max-width: 1048px !important;
   margin-bottom: 20.4rem;
@@ -414,6 +418,7 @@ h1 {
 .last-news-block a {
   padding-top: 4rem;
   padding-bottom: 5rem;
+  display: block;
   color: var(--principal-black, #1E212B);
   font-family: Inter;
   font-size: 2rem;

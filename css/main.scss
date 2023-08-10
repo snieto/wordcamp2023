@@ -6,7 +6,9 @@
 @import 'buttons';
 @import 'additional';
 
-
+body.home{
+    background-color: $principal-white;
+}
 .wordcamp-block{
     max-width: 1048px !important;
     margin-bottom: 20.4rem;
@@ -255,6 +257,7 @@
     a{
         padding-top: 4rem;
         padding-bottom: 5rem;
+        display: block;
 
         color: var(--principal-black, $dark-grey);
         font-family: Inter;
