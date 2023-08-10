@@ -314,7 +314,7 @@ button.wp-block-search__button.has-text-color.has-foreground-color.has-backgroun
 }
 
 .sponsors-block {
-  padding: 10rem 1rem;
+  padding: 10rem 1rem !important;
 }
 .sponsors-block h2 {
   color: var(--white, #FFF);
@@ -326,7 +326,7 @@ button.wp-block-search__button.has-text-color.has-foreground-color.has-backgroun
   line-height: 6.875rem; /* 110% */
 }
 .sponsors-block .gold, .sponsors-block .silver, .sponsors-block .bronze {
-  padding: 4.25rem 1rem 35rem !important;
+  padding: 4.25rem 1rem 35rem;
   border-radius: 3.125rem;
   text-align: center;
 }
