@@ -227,7 +227,7 @@
 .last-news-block{
     background-color: $principal-white;
     color: $dark-grey !important;
-    padding: 10rem 10rem 12rem;
+    padding: 10rem 10rem 12rem !important;
     
     h2{
         @include heading3;

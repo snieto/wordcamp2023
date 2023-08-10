@@ -377,7 +377,7 @@ h1 {
 .last-news-block {
   background-color: #FFF;
   color: #1E212B !important;
-  padding: 10rem 10rem 12rem;
+  padding: 10rem 10rem 12rem !important;
 }
 .last-news-block h2 {
   color: var(--white, #FFF);
