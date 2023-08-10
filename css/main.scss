@@ -238,5 +238,32 @@
         margin-bottom: 5rem;
         max-width: 75rem;
     }
+    li{
+        border-top: 1px solid $dark-grey;
+        border-bottom: 1px solid $dark-grey;
+    }
+    li:nth-child(2){
+        border-radius: 1.5625rem;
+        background: var(--dark-blue, #1E212B);
+        /* Drop Shadow */
+        box-shadow: 5px 10px 50px 0px rgba(17, 17, 43, 0.05);
 
+        time{
+            color: var(--principal-black, $orange);
+        }
+    }
+    .a{
+        color: var(--principal-black, $dark-grey;
+        font-family: Inter;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 2.5rem; /* 125% */
+    }
+    time{
+        color: var(--principal-black, $dark-grey);
+        text-align: right;
+
+        @include heading5;
+    }
 }
