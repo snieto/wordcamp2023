@@ -135,6 +135,7 @@
     h2{
         @include heading3;
         color: $dark-grey;
+        margin-bottom: 5.4rem;
     }
     .items{
         padding: 0 4rem;
@@ -169,18 +170,19 @@
 }
 .sponsors-block{
     padding: 10rem 1rem;
-    
+
     h2{
         @include heading3;
     }
     
     .gold, .silver, .bronze{
-        padding: 4.25rem 1rem 35rem;
+        padding: 4.25rem 1rem 35rem !important;
         border-radius: 3.125rem;
         text-align: center;
 
         h3{
             @include heading3;
+            margin-top: 0;
         }
     }
     .gold{

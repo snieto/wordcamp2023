@@ -23,3 +23,43 @@ button.wp-block-search__button.has-text-color.has-foreground-color.has-backgroun
 .columna-blog {
     min-width: 300px;
 }
+
+
+
+.faq {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.faq-item {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.faq-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    background: #f9f9f9;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+    text-align: left;
+}
+
+.faq-symbol {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.faq-answer {
+    display: none;
+    padding: 15px;
+    background: #fafafa;
+    border-top: 1px solid #ccc;
+}
