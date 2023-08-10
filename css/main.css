@@ -17,6 +17,8 @@ body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alig
 }
 
 body .is-layout-constrained > .alignwide {
+  padding-left: var(--wp--custom--spacing--outer);
+  padding-right: var(--wp--custom--spacing--outer);
   max-width: 1920px;
 }
 
