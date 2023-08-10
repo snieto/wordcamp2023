@@ -411,7 +411,7 @@ h1 {
 .last-news-block li:nth-child(2) time {
   color: var(--principal-black, #EB4511);
 }
-.last-news-block .a {
+.last-news-block a {
   color: var(--principal-black, #1E212B);
   font-family: Inter;
   font-size: 2rem;
