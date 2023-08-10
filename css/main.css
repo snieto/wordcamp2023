@@ -16,6 +16,10 @@ body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alig
   max-width: 1920px;
 }
 
+body .is-layout-constrained > .alignwide {
+  max-width: var(--wp--style--global--wide-size, 1920px);
+}
+
 p {
   font-family: Inter;
   font-size: 20px;
@@ -337,7 +341,10 @@ h1 span {
   background: var(--principal-orange, #489FB5);
 }
 
-.faqs h3 {
+.faqs-block {
+  padding-bottom: 12rem;
+}
+.faqs-block h3 {
   color: var(--white, #FFF);
   /* Heading 3 */
   font-family: Space Grotesk;
@@ -345,6 +352,24 @@ h1 span {
   font-style: normal;
   font-weight: 700;
   line-height: 6.875rem; /* 110% */
+}
+
+.last-news-block {
+  background-color: #FFF;
+}
+.last-news-block h2 {
+  color: var(--white, #FFF);
+  /* Heading 3 */
+  font-family: Space Grotesk;
+  font-size: 6.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 6.875rem; /* 110% */
+  margin-bottom: 2.5rem;
+}
+.last-news-block p {
+  margin-bottom: 5rem;
+  max-width: 75rem;
 }
 
 /*# sourceMappingURL=main.css.map */

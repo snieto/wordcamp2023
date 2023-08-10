@@ -208,8 +208,22 @@
         background: var(--principal-orange, $secondary-green);
     }
 }
-.faqs{
+.faqs-block{
+    padding-bottom: 12rem;
+
     h3{
         @include heading3;
+    }
+}
+.last-news-block{
+    background-color: $principal-white;
+
+    h2{
+        @include heading3;
+        margin-bottom: 2.5rem;
+    }
+    p{
+        margin-bottom: 5rem;
+        max-width: 75rem;
     }
 }
