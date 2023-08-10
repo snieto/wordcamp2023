@@ -356,6 +356,9 @@ button.wp-block-search__button.has-text-color.has-foreground-color.has-backgroun
   color: #1E212B !important;
   background: var(--principal-orange, #D9D9D9);
 }
+.sponsors-block .silver h3 {
+  color: #1E212B !important;
+}
 .sponsors-block .bronze {
   background: var(--principal-orange, #489FB5);
 }

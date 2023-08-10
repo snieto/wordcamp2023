@@ -200,6 +200,9 @@
     .silver{
         color: $dark-grey !important;
         background: var(--principal-orange, $light-grey);
+        h3{
+            color: $dark-grey !important;
+        }
     }
     .bronze{
         background: var(--principal-orange, $secondary-green);
