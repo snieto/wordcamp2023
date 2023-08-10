@@ -261,6 +261,7 @@ body.home {
 }
 .for-all-block p {
   padding-bottom: 4rem;
+  color: #FFF;
 }
 .for-all-block .wp-block-column:after {
   opacity: 0.5;
@@ -371,6 +372,7 @@ body.home {
 
 .faqs-block {
   padding-bottom: 12rem;
+  color: #FFF;
 }
 .faqs-block h3 {
   color: var(--white, #FFF);
@@ -380,6 +382,7 @@ body.home {
   font-style: normal;
   font-weight: 700;
   line-height: 6.875rem; /* 110% */
+  color: #FFF;
 }
 
 .last-news-block {
