@@ -227,10 +227,11 @@
 .last-news-block{
     background-color: $principal-white;
     color: $dark-grey !important;
-
+    
     h2{
         @include heading3;
         margin-bottom: 2.5rem;
+        color: $dark-grey !important;
     }
     p{
         margin-bottom: 5rem;
