@@ -325,6 +325,9 @@ button.wp-block-search__button.has-text-color.has-foreground-color.has-backgroun
   font-weight: 700;
   line-height: 6.875rem; /* 110% */
 }
+.sponsors-block .wp-block-columns {
+  margin-bottom: 5.5rem;
+}
 .sponsors-block .gold, .sponsors-block .silver, .sponsors-block .bronze {
   padding: 4.25rem 1rem 35rem;
   border-radius: 3.125rem;
