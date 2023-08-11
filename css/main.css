@@ -396,7 +396,10 @@ body.home .wp-site-blocks {
 .faqs-block .wp-block-details details {
   margin-bottom: 4.5rem;
 }
-.faqs-block .wp-block-details details[open] summary:after {
+.faqs-block .wp-block-details[open] summary {
+  border-bottom: none;
+}
+.faqs-block .wp-block-details[open] summary:after {
   content: "-";
 }
 .faqs-block .wp-block-details summary {
@@ -415,6 +418,9 @@ body.home .wp-site-blocks {
   content: "+";
   display: inline-block;
   float: right;
+}
+.faqs-block .wp-block-details p {
+  margin-bottom: 1rem;
 }
 
 .last-news-block {
