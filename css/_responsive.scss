@@ -75,10 +75,14 @@
         }
         .wp-block-buttons{
             position: relative;
-            
+
             &>.wp-block-button{
                 margin: 0 auto 3rem;
             }
         }
+    }
+    .wp-block-latest-posts.columns-3 li {
+        width: 100% !important;
+        margin-bottom: 2rem;
     }
 }

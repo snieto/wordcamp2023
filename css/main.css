@@ -580,6 +580,10 @@ body.home .wp-site-blocks {
   .faqs-block .wp-block-buttons > .wp-block-button {
     margin: 0 auto 3rem;
   }
+  .wp-block-latest-posts.columns-3 li {
+    width: 100% !important;
+    margin-bottom: 2rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
