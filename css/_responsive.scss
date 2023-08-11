@@ -64,21 +64,23 @@
         line-height: 4rem;
     }
     .faqs-block{
-        .wp-block-column:first-child{
-            margin-bottom: 3rem;
-        }
         h3 {
             text-align: center;
             font-size: 4.5rem;
             line-height: 5.5rem;
             margin-bottom: 3rem;
         }
-        .wp-block-column .wp-block-buttons{
-            position: relative;
-
-            &>.wp-block-button{
-                margin: 0 auto 3rem;
+        .wp-block-column{
+            &:first-child{
+                margin-bottom: 3rem;
             }
+            .wp-block-buttons{
+                position: relative;
+                
+                &>.wp-block-button{
+                    margin: 0 auto 3rem;
+                }
+            } 
         }
     }
     .the-event-block {
