@@ -73,12 +73,25 @@
             line-height: 5.5rem;
             margin-bottom: 3rem;
         }
-        .wp-block-buttons{
+        .wp-block-column .wp-block-buttons{
             position: relative;
 
             &>.wp-block-button{
                 margin: 0 auto 3rem;
             }
+        }
+    }
+    .the-event-block {
+        padding-top: 8rem !important;
+        padding-bottom: 6rem !important;
+
+        h2 {
+            font-size: 5.25rem;
+            margin-bottom: 3.4rem;
+        }
+        .item {
+            font-size: 2rem;
+            padding-bottom: 2rem;
         }
     }
     .wp-block-latest-posts.columns-3 li {

@@ -574,11 +574,23 @@ body.home .wp-site-blocks {
     line-height: 5.5rem;
     margin-bottom: 3rem;
   }
-  .faqs-block .wp-block-buttons {
+  .faqs-block .wp-block-column .wp-block-buttons {
     position: relative;
   }
-  .faqs-block .wp-block-buttons > .wp-block-button {
+  .faqs-block .wp-block-column .wp-block-buttons > .wp-block-button {
     margin: 0 auto 3rem;
+  }
+  .the-event-block {
+    padding-top: 8rem !important;
+    padding-bottom: 6rem !important;
+  }
+  .the-event-block h2 {
+    font-size: 5.25rem;
+    margin-bottom: 3.4rem;
+  }
+  .the-event-block .item {
+    font-size: 2rem;
+    padding-bottom: 2rem;
   }
   .wp-block-latest-posts.columns-3 li {
     width: 100% !important;
