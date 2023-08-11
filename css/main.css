@@ -90,6 +90,9 @@ h1 {
   background-color: #489FB5;
 }
 .wp-block-button.white a.wp-block-button__link {
+  color: #1E212B !important;
+  border-color: #1E212B;
+  background-image: url(/2023/files/2023/08/arrow-icon-white-small.png);
   background-color: #FFF;
 }
 
