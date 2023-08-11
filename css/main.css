@@ -132,11 +132,14 @@ h1 {
 body.home {
   background-color: #1E212B;
 }
+body.home .wp-site-blocks {
+  background: transparent url(/2023/files/2023/08/bg-waves.png) left 600px no-repeat;
+  background-size: contain;
+}
 
 .wordcamp-block {
   max-width: 1048px !important;
   margin-bottom: 20.4rem;
-  background: transparent url(/2023/files/2023/08/bg-waves.png) bottom left no-repeat;
 }
 .wordcamp-block h1 {
   color: var(--principal-orange, #EB4511);
@@ -159,6 +162,8 @@ body.home {
   top: 85px;
 }
 .wordcamp-block p {
+  color: #FFF;
+  padding-right: 2rem;
   margin-bottom: 3.2rem;
 }
 
@@ -333,9 +338,6 @@ body.home {
   font-weight: 700;
   line-height: 6.875rem; /* 110% */
 }
-.sponsors-block .wp-block-columns {
-  margin-bottom: 7rem;
-}
 .sponsors-block .gold, .sponsors-block .silver, .sponsors-block .bronze {
   padding: 4.25rem 1rem 35rem;
   border-radius: 3.125rem;
@@ -372,6 +374,7 @@ body.home {
 }
 
 .faqs-block {
+  margin-top: 7rem;
   padding-bottom: 12rem;
   color: #FFF;
 }
@@ -406,9 +409,19 @@ body.home {
   margin-bottom: 5rem;
   max-width: 75rem;
 }
-.last-news-block li {
+.last-news-block li li:nth-child(1):before,
+.last-news-block li li:nth-child(3):before {
+  display: block;
+  content: "";
+  margin-top: 4rem;
   border-top: 1px solid #1E212B;
-  border-bottom: 1px solid #1E212B;
+}
+.last-news-block li li:nth-child(1):after,
+.last-news-block li li:nth-child(3):after {
+  display: block;
+  content: "";
+  border-top: 1px solid #1E212B;
+  margin-bottom: 5rem;
 }
 .last-news-block li:nth-child(2) {
   border-radius: 1.5625rem;
@@ -420,7 +433,6 @@ body.home {
   color: var(--principal-black, #EB4511);
 }
 .last-news-block a {
-  padding-top: 4rem;
   padding-bottom: 5rem;
   display: block;
   color: var(--principal-black, #1E212B);
@@ -431,8 +443,9 @@ body.home {
   line-height: 2.5rem; /* 125% */
 }
 .last-news-block time {
-  color: var(--principal-black, #1E212B);
+  color: var(--principal-black, #1E212B) !important;
   text-align: right;
+  padding-right: 1rem;
   color: var(--white, #FFF);
   /* Heading 5 */
   font-family: Space Grotesk;
@@ -440,6 +453,8 @@ body.home {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  font-size: 1.5rem;
+  font-family: Inter;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -8,11 +8,15 @@
 
 body.home{
     background-color: $dark-grey;
+
+    .wp-site-blocks{
+        background: transparent url(/2023/files/2023/08/bg-waves.png) left 600px no-repeat;
+        background-size: contain;
+    }
 }
 .wordcamp-block{
     max-width: 1048px !important;
     margin-bottom: 20.4rem;
-    background: transparent url(/2023/files/2023/08/bg-waves.png) bottom left no-repeat;
     
     h1{
         color: var(--principal-orange, $orange);
@@ -36,6 +40,8 @@ body.home{
         }
     }
     p{
+        color: $principal-white;
+        padding-right: 2rem;
         margin-bottom: 3.2rem;
     }
 }
@@ -189,7 +195,7 @@ body.home{
         @include heading3;
     }
     .wp-block-columns{
-        margin-bottom: 7rem;
+        
     }
     
     .gold, .silver, .bronze{
@@ -223,6 +229,7 @@ body.home{
     }
 }
 .faqs-block{
+    margin-top: 7rem;
     padding-bottom: 12rem;
     color: $principal-white;
 
@@ -246,21 +253,39 @@ body.home{
         max-width: 75rem;
     }
     li{
-        border-top: 1px solid $dark-grey;
-        border-bottom: 1px solid $dark-grey;
-    }
-    li:nth-child(2){
-        border-radius: 1.5625rem;
-        background: var(--dark-blue, $dark-grey);
-        /* Drop Shadow */
-        box-shadow: 5px 10px 50px 0px rgba(17, 17, 43, 0.05);
+        // border-top: 1px solid $dark-grey;
+        // border-bottom: 1px solid $dark-grey;
+        // padding: 5rem 0rem 4rem;
 
-        time{
-            color: var(--principal-black, $orange);
+        li:nth-child(1):before,
+        li:nth-child(3):before{
+            display: block;
+            content: "";
+            margin-top: 4rem;
+            border-top: 1px solid #1E212B;
+        }
+        li:nth-child(1):after,
+        li:nth-child(3):after{
+            display: block;
+            content: "";
+            border-top: 1px solid #1E212B;
+            margin-bottom: 5rem;
+        }
+
+    
+        &:nth-child(2){
+            border-radius: 1.5625rem;
+            background: var(--dark-blue, $dark-grey);
+            /* Drop Shadow */
+            box-shadow: 5px 10px 50px 0px rgba(17, 17, 43, 0.05);
+
+            time{
+                color: var(--principal-black, $orange);
+            }
         }
     }
     a{
-        padding-top: 4rem;
+        // padding-top: 4rem;
         padding-bottom: 5rem;
         display: block;
 
@@ -272,9 +297,12 @@ body.home{
         line-height: 2.5rem; /* 125% */
     }
     time{
-        color: var(--principal-black, $dark-grey);
+        color: var(--principal-black, $dark-grey) !important;
         text-align: right;
+        padding-right: 1rem;
 
         @include heading5;
+        font-size: 1.5rem;
+        font-family: Inter;
     }
 }
