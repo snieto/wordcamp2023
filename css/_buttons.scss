@@ -14,13 +14,26 @@
     padding: 1.69rem 200px 1.69rem 4rem;
     background-position: 17rem;
 }
-.wp-block-button.small  a.wp-block-button__link{
-    @include button;
-    background: $dark-grey url(/2023/files/2023/08/arrow-icon-black-small.png) no-repeat top left;
-    padding: 1.69rem 10rem 1.69rem 2.5rem;
-    background-position: 10rem;
-}
-.wp-block-button.green  a.wp-block-button__link{
-    background-image: url(/2023/files/2023/08/arrow-icon-green-small.png);
-    background-color: $secondary-green;
+.wp-block-button{
+
+    &.small  {
+        a.wp-block-button__link{
+            @include button;
+            background: $dark-grey url(/2023/files/2023/08/arrow-icon-black-small.png) no-repeat top left;
+            padding: 1.69rem 10rem 1.69rem 2.5rem;
+            // background-position: 10rem;
+            background-position: calc(100% - 2rem);
+        }    
+    }
+    &.green  {
+        a.wp-block-button__link{
+            background-image: url(/2023/files/2023/08/arrow-icon-green-small.png);
+            background-color: $secondary-green;
+        }
+    }
+    &.white  {
+        a.wp-block-button__link{
+            background-color: $principal-white;
+        }
+    }
 }

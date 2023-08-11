@@ -83,12 +83,14 @@ h1 {
   line-height: normal;
   background: #1E212B url(/2023/files/2023/08/arrow-icon-black-small.png) no-repeat top left;
   padding: 1.69rem 10rem 1.69rem 2.5rem;
-  background-position: 10rem;
+  background-position: calc(100% - 2rem);
 }
-
 .wp-block-button.green a.wp-block-button__link {
   background-image: url(/2023/files/2023/08/arrow-icon-green-small.png);
   background-color: #489FB5;
+}
+.wp-block-button.white a.wp-block-button__link {
+  background-color: #FFF;
 }
 
 .faq {
