@@ -549,12 +549,13 @@ body.home .wp-site-blocks {
   .why-block h2 {
     margin-bottom: 6rem;
   }
-  .why-block figure,
-  .why-block h4 {
-    text-align: center;
-  }
-  .why-block p {
+  .why-block .wp-block-column {
     margin-bottom: 3rem;
+  }
+  .why-block figure,
+  .why-block h4,
+  .why-block p {
+    text-align: center;
   }
   .community-bock p {
     font-size: 3.5rem;

@@ -46,12 +46,13 @@
         h2 {
             margin-bottom: 6rem;
         }
-        figure,
-        h4{
-            text-align: center;
-        }
-        p{
+        .wp-block-column{
             margin-bottom: 3rem;
+        }
+        figure,
+        h4,
+        p{
+            text-align: center;
         }
     } 
 
