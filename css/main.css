@@ -429,8 +429,15 @@ body.home .wp-site-blocks {
   /* Drop Shadow */
   box-shadow: 5px 10px 50px 0px rgba(17, 17, 43, 0.05);
 }
+.last-news-block li:nth-child(2) a {
+  color: #FFF;
+  text-align: center;
+}
 .last-news-block li:nth-child(2) time {
   color: var(--principal-black, #EB4511);
+}
+.last-news-block li:nth-child(2):before, .last-news-block li:nth-child(2):after {
+  display: none;
 }
 .last-news-block a {
   padding-bottom: 5rem;

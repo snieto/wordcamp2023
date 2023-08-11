@@ -280,10 +280,17 @@ body.home{
             background: var(--dark-blue, $dark-grey);
             /* Drop Shadow */
             box-shadow: 5px 10px 50px 0px rgba(17, 17, 43, 0.05);
-
+            a{
+                color: $principal-white;
+                text-align: center;
+            }
             time{
                 color: var(--principal-black, $orange);
             }
+        }
+        &:nth-child(2):before,
+        &:nth-child(2):after{
+            display: none;
         }
     }
     a{
