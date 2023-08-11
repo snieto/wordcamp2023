@@ -233,6 +233,15 @@ body.home{
     padding-bottom: 12rem;
     color: $principal-white;
 
+    .wp-block-column{
+        position: relative;
+
+        .wp-block-buttons{
+            position: absolute;
+            bottom: 0;
+        }
+    }
+
     h3{
         @include heading3;
         color: $principal-white;
@@ -264,7 +273,7 @@ body.home{
                 float: right;
             }
         }
-        
+
         p{
             margin-bottom: 1rem;
         }
