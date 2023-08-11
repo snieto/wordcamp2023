@@ -396,6 +396,9 @@ body.home .wp-site-blocks {
 .faqs-block .wp-block-details details {
   margin-bottom: 4.5rem;
 }
+.faqs-block .wp-block-details details[open] summary:after {
+  content: ".";
+}
 .faqs-block .wp-block-details summary {
   color: var(--white, #FFF);
   /* heading 2 */
