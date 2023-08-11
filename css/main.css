@@ -435,7 +435,7 @@ body.home .wp-site-blocks {
   text-align: center;
 }
 .last-news-block li:nth-child(2) time {
-  color: var(--principal-black, #EB4511);
+  color: var(--principal-black, #EB4511) !important;
 }
 .last-news-block li:nth-child(2):before, .last-news-block li:nth-child(2):after {
   display: none;

@@ -286,7 +286,7 @@ body.home{
                 text-align: center;
             }
             time{
-                color: var(--principal-black, $orange);
+                color: var(--principal-black, $orange) !important;
             }
         }
         &:nth-child(2):before,
