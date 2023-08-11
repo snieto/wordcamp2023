@@ -261,8 +261,8 @@ body.home{
         &:nth-child(3):before{
             display: block;
             content: "";
-            margin-top: 1rem;
-            margin-bottom: 4rem;
+            margin-top: 2rem;
+            margin-bottom: 5rem;
             border-top: 1px solid #1E212B;
         }
         &:nth-child(1):after,
@@ -271,11 +271,12 @@ body.home{
             content: "";
             border-top: 1px solid #1E212B;
             margin-top: 5rem;
-            margin-bottom: 1rem;
+            margin-bottom: 2rem;
         }
 
     
         &:nth-child(2){
+            padding-top: 7rem;
             border-radius: 1.5625rem;
             background: var(--dark-blue, $dark-grey);
             /* Drop Shadow */
