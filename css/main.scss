@@ -50,10 +50,12 @@ body.home{
 
     h2{
         @include heading5;
+        color: $principal-white;
         margin-bottom: 9.2rem;
     }
     
     h4{
+        color: $principal-white;
         font-size: 2rem;
         font-style: normal;
         font-weight: 500;
@@ -63,6 +65,7 @@ body.home{
         margin-bottom: 1.9rem;
     }
     p{
+        color: $principal-white;
         margin-block-start: 1rem;
     }
 

@@ -14,7 +14,7 @@
 }
 @media screen and (max-width: 1161px){
     .wordcamp-block h1{
-        font-size: 5.5rem;
+        font-size: 6rem;
         span{
             font-size: 8.875rem;
         }
@@ -22,6 +22,14 @@
         
 }
 @media screen and (max-width: 1024px){
+    .wordcamp-block h1{
+        span{
+            position: relative;
+            right: auto;
+            top: auto;
+            display: block;
+        }
+    }
     .wp-block-columns .wp-block-column{
         flex-basis: 100%!important;
     }

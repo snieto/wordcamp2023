@@ -183,9 +183,11 @@ body.home .wp-site-blocks {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  color: #FFF;
   margin-bottom: 9.2rem;
 }
 .why-block h4 {
+  color: #FFF;
   font-size: 2rem;
   font-style: normal;
   font-weight: 500;
@@ -195,6 +197,7 @@ body.home .wp-site-blocks {
   margin-bottom: 1.9rem;
 }
 .why-block p {
+  color: #FFF;
   margin-block-start: 1rem;
 }
 
@@ -521,13 +524,19 @@ body.home .wp-site-blocks {
 }
 @media screen and (max-width: 1161px) {
   .wordcamp-block h1 {
-    font-size: 5.5rem;
+    font-size: 6rem;
   }
   .wordcamp-block h1 span {
     font-size: 8.875rem;
   }
 }
 @media screen and (max-width: 1024px) {
+  .wordcamp-block h1 span {
+    position: relative;
+    right: auto;
+    top: auto;
+    display: block;
+  }
   .wp-block-columns .wp-block-column {
     flex-basis: 100% !important;
   }
