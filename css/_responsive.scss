@@ -22,6 +22,12 @@
         
 }
 @media screen and (max-width: 1024px){
+    body {
+        word-wrap: break-word;
+    }
+    body.home .wp-site-blocks{
+        background-position-y: 850px;
+    }
     .wordcamp-block h1{
         span{
             position: relative;
@@ -96,6 +102,9 @@
             font-size: 5.25rem;
             margin-bottom: 3.4rem;
         }
+        .items{
+            padding: 0;
+        }
         .item {
             font-size: 2rem;
             padding-bottom: 2rem;
@@ -104,5 +113,14 @@
     .wp-block-latest-posts.columns-3 li {
         width: 100% !important;
         margin-bottom: 2rem;
+    }
+    .last-news-block {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+
+        h2{
+            font-size: 5rem;
+            line-height: 5.875rem; 
+        }
     }
 }
