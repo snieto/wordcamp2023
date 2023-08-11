@@ -1,4 +1,4 @@
-@media screen and (max-width < 1550px){
+@media screen and (max-width: 1550px){
     .roles-block {
         .wp-block-columns{
             padding-left: 0;
@@ -12,7 +12,7 @@
         }
     }
 }
-@media screen and (max-width < 1161px){
+@media screen and (max-width: 1161px){
     .wordcamp-block h1{
         font-size: 5.5rem;
         span{
@@ -21,7 +21,7 @@
     } 
         
 }
-@media screen and (max-width < 1042px){
+@media screen and (max-width: 1042px){
     .wp-block-columns .wp-block-column{
         flex-basis: 100%!important;
     }
