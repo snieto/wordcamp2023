@@ -401,7 +401,6 @@ body.home .wp-site-blocks {
   font-weight: 700;
   line-height: 6.875rem; /* 110% */
   color: #FFF;
-  margin-bottom: 7rem;
 }
 .faqs-block .wp-block-details details {
   margin-bottom: 4.5rem;
@@ -546,8 +545,12 @@ body.home .wp-site-blocks {
   .wordcamp-block {
     margin-bottom: 10.4rem;
   }
+  .why-block {
+    padding-bottom: 5rem;
+  }
   .why-block h2 {
     margin-bottom: 6rem;
+    text-align: center;
   }
   .why-block .wp-block-column {
     margin-bottom: 3rem;
@@ -563,6 +566,15 @@ body.home .wp-site-blocks {
   }
   .faqs-block .wp-block-column:first-child {
     margin-bottom: 3rem;
+  }
+  .faqs-block h3 {
+    text-align: center;
+    font-size: 4.5rem;
+    line-height: 5.5rem;
+  }
+  .faqs-block .wp-block-buttons > .wp-block-button {
+    position: relative;
+    margin: 0 auto;
   }
 }
 

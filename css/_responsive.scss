@@ -43,8 +43,11 @@
         margin-bottom: 10.4rem;
     }
     .why-block{
+        padding-bottom: 5rem;
+
         h2 {
             margin-bottom: 6rem;
+            text-align: center;
         }
         .wp-block-column{
             margin-bottom: 3rem;
@@ -63,6 +66,15 @@
     .faqs-block{
         .wp-block-column:first-child{
             margin-bottom: 3rem;
+        }
+        h3 {
+            text-align: center;
+            font-size: 4.5rem;
+            line-height: 5.5rem;
+        }
+        .wp-block-buttons>.wp-block-button{
+            position: relative;
+            margin: 0 auto;
         }
     }
 }
