@@ -30,11 +30,37 @@
             display: block;
         }
     }
-    .wp-block-columns .wp-block-column{
-        flex-basis: 100%!important;
+    .home{
+        .wp-block-columns {
+            flex-wrap: wrap !important;
+
+            .wp-block-column{
+                flex-basis: 100%!important;
+            }
+        }
     }
+    .wordcamp-block {
+        margin-bottom: 10.4rem;
+    }
+    .why-block h2 {
+        margin-bottom: 6rem;
+
+        figure,
+        h4{
+            text-align: center;
+        }
+        p{
+            margin-bottom: 3rem;
+        }
+    }
+
     .community-bock p {
         font-size: 3.5rem;
         line-height: 4rem;
+    }
+    .faqs-block{
+        .wp-block-column:first-child{
+            margin-bottom: 3rem;
+        }
     }
 }

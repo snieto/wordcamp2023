@@ -50,7 +50,6 @@ body.home{
 
     h2{
         @include heading5;
-        color: $principal-white;
         margin-bottom: 9.2rem;
     }
     
@@ -248,6 +247,7 @@ body.home{
     h3{
         @include heading3;
         color: $principal-white;
+        margin-bottom: 7rem;
     }
     .wp-block-details{
         details{

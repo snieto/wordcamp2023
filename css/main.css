@@ -183,7 +183,6 @@ body.home .wp-site-blocks {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  color: #FFF;
   margin-bottom: 9.2rem;
 }
 .why-block h4 {
@@ -402,6 +401,7 @@ body.home .wp-site-blocks {
   font-weight: 700;
   line-height: 6.875rem; /* 110% */
   color: #FFF;
+  margin-bottom: 7rem;
 }
 .faqs-block .wp-block-details details {
   margin-bottom: 4.5rem;
@@ -537,12 +537,31 @@ body.home .wp-site-blocks {
     top: auto;
     display: block;
   }
-  .wp-block-columns .wp-block-column {
+  .home .wp-block-columns {
+    flex-wrap: wrap !important;
+  }
+  .home .wp-block-columns .wp-block-column {
     flex-basis: 100% !important;
+  }
+  .wordcamp-block {
+    margin-bottom: 10.4rem;
+  }
+  .why-block h2 {
+    margin-bottom: 6rem;
+  }
+  .why-block h2 figure,
+  .why-block h2 h4 {
+    text-align: center;
+  }
+  .why-block h2 p {
+    margin-bottom: 3rem;
   }
   .community-bock p {
     font-size: 3.5rem;
     line-height: 4rem;
+  }
+  .faqs-block .wp-block-column:first-child {
+    margin-bottom: 3rem;
   }
 }
 
