@@ -136,6 +136,7 @@ body.home {
 .wordcamp-block {
   max-width: 1048px !important;
   margin-bottom: 20.4rem;
+  background: transparent url(/2023/files/2023/08/bg-waves.png) bottom left no-repeat;
 }
 .wordcamp-block h1 {
   color: var(--principal-orange, #EB4511);
