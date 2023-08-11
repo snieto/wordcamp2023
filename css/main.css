@@ -549,11 +549,11 @@ body.home .wp-site-blocks {
   .why-block h2 {
     margin-bottom: 6rem;
   }
-  .why-block h2 figure,
-  .why-block h2 h4 {
+  .why-block figure,
+  .why-block h4 {
     text-align: center;
   }
-  .why-block h2 p {
+  .why-block p {
     margin-bottom: 3rem;
   }
   .community-bock p {
