@@ -561,6 +561,10 @@ body.home .wp-site-blocks {
   .why-block p {
     text-align: center;
   }
+  .roles-block h5,
+  .roles-block p {
+    text-align: center;
+  }
   .community-bock p {
     font-size: 3.5rem;
     line-height: 4rem;
