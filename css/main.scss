@@ -247,7 +247,7 @@ body.home{
     h3{
         @include heading3;
         color: $principal-white;
-        // margin-bottom: 7rem;
+        margin-bottom: 7rem;
     }
     .wp-block-details{
         details{

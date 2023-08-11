@@ -401,6 +401,7 @@ body.home .wp-site-blocks {
   font-weight: 700;
   line-height: 6.875rem; /* 110% */
   color: #FFF;
+  margin-bottom: 7rem;
 }
 .faqs-block .wp-block-details details {
   margin-bottom: 4.5rem;
@@ -571,10 +572,13 @@ body.home .wp-site-blocks {
     text-align: center;
     font-size: 4.5rem;
     line-height: 5.5rem;
+    margin-bottom: 3rem;
+  }
+  .faqs-block .wp-block-buttons {
+    position: relative;
   }
   .faqs-block .wp-block-buttons > .wp-block-button {
-    position: relative;
-    margin: 0 auto;
+    margin: 0 auto 3rem;
   }
 }
 
