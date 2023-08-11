@@ -237,6 +237,24 @@ body.home{
         @include heading3;
         color: $principal-white;
     }
+    .wp-block-details{
+        details{
+            margin-bottom: 4.5rem;
+        }
+        
+        summary{
+            @include heading2;
+            list-style: none;
+            border-bottom: 1px solid lightgray;
+            padding-bottom: 1.44rem;
+
+            &:after {
+                content: "+";
+                display: inline-block;
+                float: right;
+            }
+        }
+    }
 }
 .last-news-block{
     background-color: $principal-white;

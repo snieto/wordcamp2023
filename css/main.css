@@ -393,6 +393,26 @@ body.home .wp-site-blocks {
   line-height: 6.875rem; /* 110% */
   color: #FFF;
 }
+.faqs-block .wp-block-details details {
+  margin-bottom: 4.5rem;
+}
+.faqs-block .wp-block-details summary {
+  color: var(--white, #FFF);
+  /* heading 2 */
+  font-family: Space Grotesk;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  list-style: none;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 1.44rem;
+}
+.faqs-block .wp-block-details summary:after {
+  content: "+";
+  display: inline-block;
+  float: right;
+}
 
 .last-news-block {
   background-color: #FFF;
