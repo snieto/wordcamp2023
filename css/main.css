@@ -409,19 +409,19 @@ body.home .wp-site-blocks {
   margin-bottom: 5rem;
   max-width: 75rem;
 }
-.last-news-block li li:nth-child(1):before,
-.last-news-block li li:nth-child(3):before {
+.last-news-block li:nth-child(1):before, .last-news-block li:nth-child(3):before {
   display: block;
   content: "";
-  margin-top: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
   border-top: 1px solid #1E212B;
 }
-.last-news-block li li:nth-child(1):after,
-.last-news-block li li:nth-child(3):after {
+.last-news-block li:nth-child(1):after, .last-news-block li:nth-child(3):after {
   display: block;
   content: "";
   border-top: 1px solid #1E212B;
-  margin-bottom: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
 }
 .last-news-block li:nth-child(2) {
   border-radius: 1.5625rem;
