@@ -537,6 +537,9 @@ body.home .wp-site-blocks {
   body.home .wp-site-blocks {
     background-position-y: 850px;
   }
+  .wordcamp-block h1 {
+    margin-bottom: 4rem;
+  }
   .wordcamp-block h1 span {
     position: relative;
     right: auto;
@@ -616,6 +619,32 @@ body.home .wp-site-blocks {
   .last-news-block h2 {
     font-size: 5rem;
     line-height: 5.875rem;
+  }
+}
+@media screen and (max-width: 630px) {
+  .wp-block-group.is-layout-constrained.wp-block-group-is-layout-constrained {
+    padding: 10px;
+  }
+  .wordcamp-block h1 {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+  .wordcamp-block h1 .wordcamp-block h1 span {
+    font-size: 6.875rem;
+  }
+  .for-all-block h5 {
+    font-size: 2.5rem;
+  }
+  .the-event-block h2 {
+    font-size: 4.25rem;
+  }
+  .faqs-block h3 {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+  }
+  .last-news-block h2 {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
   }
 }
 
