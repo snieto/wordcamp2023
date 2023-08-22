@@ -166,6 +166,13 @@ body.home .wp-site-blocks {
   right: 0;
   top: 85px;
 }
+.wordcamp-block h2 {
+  font-size: 3rem;
+  text-align: left;
+  color: white;
+  margin-bottom: 6rem;
+  margin-top: -2rem;
+}
 .wordcamp-block p {
   color: #FFF;
   padding-right: 2rem;
@@ -545,6 +552,9 @@ body.home .wp-site-blocks {
     right: auto;
     top: auto;
     display: block;
+  }
+  .wordcamp-block h2 {
+    margin-top: -6rem;
   }
   .home .wp-block-columns {
     flex-wrap: wrap !important;
