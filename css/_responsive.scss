@@ -15,8 +15,12 @@
 @media screen and (max-width: 1161px){
     .wordcamp-block h1{
         font-size: 6rem;
+        font-size: clamp(3rem, 7vw, 6rem);
+
         span{
             font-size: 8.875rem;
+            font-size: clamp(4rem, 7vw, 8.875rem);
+            margin-bottom: 7rem;
         }
     } 
         

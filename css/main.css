@@ -138,7 +138,7 @@ body.home {
   background-color: #1E212B;
 }
 body.home .wp-site-blocks {
-  background: transparent url(/2023/files/2023/08/bg-waves.png) left 600px no-repeat;
+  background: transparent url(/2023/files/2023/08/bg-waves.png) left 1000px no-repeat;
   background-size: contain;
 }
 
@@ -168,6 +168,7 @@ body.home .wp-site-blocks {
 }
 .wordcamp-block h2 {
   font-size: 3rem;
+  font-size: clamp(2.2rem, 7vw, 3rem);
   text-align: left;
   color: white;
   margin-bottom: 6rem;
@@ -190,6 +191,7 @@ body.home .wp-site-blocks {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  font-size: clamp(2.25rem, 7vw, 3.5rem);
   margin-bottom: 9.2rem;
 }
 .why-block h4 {
@@ -277,6 +279,7 @@ body.home .wp-site-blocks {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  font-size: clamp(2rem, 7vw, 2.5rem);
   color: var(--principal-orange, #EB4511);
 }
 .for-all-block p {
@@ -308,6 +311,7 @@ body.home .wp-site-blocks {
   font-style: normal;
   font-weight: 700;
   line-height: 6.875rem; /* 110% */
+  font-size: clamp(2.5rem, 7vw, 6.25rem);
   color: #1E212B;
   margin-bottom: 5.4rem;
 }
@@ -407,6 +411,7 @@ body.home .wp-site-blocks {
   font-style: normal;
   font-weight: 700;
   line-height: 6.875rem; /* 110% */
+  font-size: clamp(2.5rem, 5vw, 6.25rem);
   color: #FFF;
   margin-bottom: 7rem;
 }
@@ -427,6 +432,7 @@ body.home .wp-site-blocks {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  font-size: clamp(2rem, 5vw, 3rem);
   list-style: none;
   border-bottom: 1px solid lightgray;
   padding-bottom: 1.44rem;
@@ -532,9 +538,12 @@ body.home .wp-site-blocks {
 @media screen and (max-width: 1161px) {
   .wordcamp-block h1 {
     font-size: 6rem;
+    font-size: clamp(3rem, 7vw, 6rem);
   }
   .wordcamp-block h1 span {
     font-size: 8.875rem;
+    font-size: clamp(4rem, 7vw, 8.875rem);
+    margin-bottom: 7rem;
   }
 }
 @media screen and (max-width: 1024px) {

@@ -10,7 +10,7 @@ body.home{
     background-color: $dark-grey;
 
     .wp-site-blocks{
-        background: transparent url(/2023/files/2023/08/bg-waves.png) left 600px no-repeat;
+        background: transparent url(/2023/files/2023/08/bg-waves.png) left 1000px no-repeat;
         background-size: contain;
     }
 }
@@ -41,6 +41,7 @@ body.home{
     }
     h2{
         font-size: 3rem;
+        font-size: clamp(2.2rem, 7vw, 3rem);
         text-align: left;
         color: white;
         margin-bottom: 6rem;
@@ -57,6 +58,7 @@ body.home{
 
     h2{
         @include heading5;
+        font-size: clamp(2.25rem, 7vw, 3.5rem);
         margin-bottom: 9.2rem;
     }
     
@@ -136,6 +138,7 @@ body.home{
     }
     h5{
         @include heading5;
+        font-size: clamp(2rem, 7vw, 2.5rem);
         color: var(--principal-orange, $orange);
     }
     p{
@@ -163,6 +166,7 @@ body.home{
 
     h2{
         @include heading3;
+        font-size: clamp(2.5rem, 7vw, 6.25rem);
         color: $dark-grey;
         margin-bottom: 5.4rem;
     }
@@ -253,6 +257,7 @@ body.home{
 
     h3{
         @include heading3;
+        font-size: clamp(2.5rem, 5vw, 6.25rem);
         color: $principal-white;
         margin-bottom: 7rem;
     }
@@ -273,6 +278,7 @@ body.home{
         
         summary{
             @include heading2;
+            font-size: clamp(2rem, 5vw, 3rem);
             list-style: none;
             border-bottom: 1px solid lightgray;
             padding-bottom: 1.44rem;
