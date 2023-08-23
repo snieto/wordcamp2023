@@ -567,6 +567,9 @@ body.page-id-875 .wp-site-blocks {
   .wordcamp-block h2 {
     margin-top: -6rem;
   }
+  .wordcamp-block p {
+    padding-right: 0;
+  }
   .home .wp-block-columns {
     flex-wrap: wrap !important;
   }
