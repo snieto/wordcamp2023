@@ -134,10 +134,12 @@ h1 {
   border-top: 1px solid #ccc;
 }
 
-body.home {
+body.home,
+body.page-id-875 {
   background-color: #1E212B;
 }
-body.home .wp-site-blocks {
+body.home .wp-site-blocks,
+body.page-id-875 .wp-site-blocks {
   background: transparent url(/2023/files/2023/08/bg-waves.png) left 1000px no-repeat;
   background-size: contain;
 }
