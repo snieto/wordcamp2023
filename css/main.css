@@ -312,7 +312,7 @@ body.page-id-875 .wp-site-blocks {
   font-style: normal;
   font-weight: 700;
   line-height: 6.875rem; /* 110% */
-  font-size: clamp(2.5rem, 7vw, 6.25rem);
+  font-size: clamp(2.5rem, 6vw, 6.25rem);
   color: #1E212B;
   margin-bottom: 5.4rem;
 }
@@ -324,6 +324,7 @@ body.page-id-875 .wp-site-blocks {
   color: var(--principal-black, #1E212B);
   font-family: Space Grotesk;
   font-size: 3.5rem;
+  font-size: clamp(2rem, 6vw, 3.5rem);
   font-style: italic;
   font-weight: 600;
   line-height: normal;
