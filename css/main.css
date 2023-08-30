@@ -334,8 +334,10 @@ body.page-id-875 .wp-site-blocks {
   background-repeat: no-repeat;
   background-position: right center;
   border-bottom: 0.0625rem solid #1E212B;
+  display: inline-block;
 }
-.the-event-block .item span {
+.the-event-block span {
+  display: inline-block;
   color: #EB4511;
   font-family: Inter;
   font-size: 2rem;
