@@ -232,7 +232,6 @@ body.page-id-875 .wp-site-blocks {
   line-height: 6.875rem; /* 110% */
 }
 .community-bock p .lighter {
-  font-family: Poppins;
   font-style: italic;
   font-weight: 300;
 }
@@ -323,7 +322,7 @@ body.page-id-875 .wp-site-blocks {
 .the-event-block .item {
   display: block;
   color: var(--principal-black, #1E212B);
-  font-family: Poppins;
+  font-family: Space Grotesk;
   font-size: 3.5rem;
   font-style: italic;
   font-weight: 600;

@@ -1,5 +1,5 @@
 @mixin button{
-    font-family: Space Grotesk;
+    font-family: $font-family-secondary;
     border-radius: 0.9rem !important;
     border: 1px solid white;
     text-transform: uppercase;

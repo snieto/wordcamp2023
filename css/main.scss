@@ -21,7 +21,7 @@ body.page-id-875{
     
     h1{
         color: var(--principal-orange, $orange);
-        font-family: Space Grotesk;
+        font-family: $font-family-secondary;
         font-size: 7.5rem;
         font-style: normal;
         font-weight: 700;
@@ -80,7 +80,7 @@ body.page-id-875{
 
 }
 .community-bock {
-    font-family: Space Grotesk;
+    font-family: $font-family-secondary;
     background: transparent url(/2023/files/2023/08/wp-community.jpg) center center no-repeat;
     background-size: cover;
     padding-top: 2.5rem !important;
@@ -96,7 +96,7 @@ body.page-id-875{
         @include heading3;
 
         .lighter{
-            font-family: Poppins;
+            // font-family: Poppins;
             font-style: italic;
             font-weight: 300;
         }
@@ -177,7 +177,7 @@ body.page-id-875{
     .item{
         display: block;
         color: var(--principal-black, $dark-grey);
-        font-family: Poppins;
+        font-family: $font-family-secondary;
         font-size: 3.5rem;
         font-style: italic;
         font-weight: 600;
