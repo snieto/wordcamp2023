@@ -49,6 +49,12 @@ p {
   display: none !important;
 }
 
+.single-post .contact-form-submission {
+  background-color: #EB4511;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+}
+
 h1 {
   color: var(--white, #FFF);
   /* Heading 3 */
