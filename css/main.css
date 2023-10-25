@@ -59,7 +59,7 @@ p {
 h1 {
   color: var(--white, #FFF);
   /* Heading 3 */
-  font-family: Space Grotesk;
+  font-family: Space Grotesk, sans-serif;
   font-size: 6.25rem;
   font-style: normal;
   font-weight: 700;
@@ -68,7 +68,7 @@ h1 {
 
 .wp-block-button.big a.wp-block-button__link,
 .wp-block-button.shop-button a.wp-block-button__link {
-  font-family: Space Grotesk;
+  font-family: Space Grotesk, sans-serif;
   border-radius: 0.9rem !important;
   border: 1px solid white;
   text-transform: uppercase;
@@ -81,7 +81,7 @@ h1 {
 }
 
 .wp-block-button.small a.wp-block-button__link {
-  font-family: Space Grotesk;
+  font-family: Space Grotesk, sans-serif;
   border-radius: 0.9rem !important;
   border: 1px solid white;
   text-transform: uppercase;
@@ -157,7 +157,7 @@ body.page-id-875 .wp-site-blocks {
 }
 .wordcamp-block h1 {
   color: var(--principal-orange, #EB4511);
-  font-family: Space Grotesk;
+  font-family: Space Grotesk, sans-serif;
   font-size: 7.5rem;
   font-style: normal;
   font-weight: 700;
@@ -195,7 +195,7 @@ body.page-id-875 .wp-site-blocks {
 .why-block h2 {
   color: var(--white, #FFF);
   /* Heading 5 */
-  font-family: Space Grotesk;
+  font-family: Space Grotesk, sans-serif;
   font-size: 3.5rem;
   font-style: normal;
   font-weight: 700;
@@ -219,7 +219,7 @@ body.page-id-875 .wp-site-blocks {
 }
 
 .community-bock {
-  font-family: Space Grotesk;
+  font-family: Space Grotesk, sans-serif;
   background: transparent url(/2023/files/2023/08/wp-community.jpg) center center no-repeat;
   background-size: cover;
   padding-top: 2.5rem !important;
@@ -232,7 +232,7 @@ body.page-id-875 .wp-site-blocks {
 .community-bock p {
   color: var(--white, #FFF);
   /* Heading 3 */
-  font-family: Space Grotesk;
+  font-family: Space Grotesk, sans-serif;
   font-size: 6.25rem;
   font-style: normal;
   font-weight: 700;
@@ -282,7 +282,7 @@ body.page-id-875 .wp-site-blocks {
 .for-all-block h5 {
   color: var(--white, #FFF);
   /* Heading 5 */
-  font-family: Space Grotesk;
+  font-family: Space Grotesk, sans-serif;
   font-size: 3.5rem;
   font-style: normal;
   font-weight: 700;
@@ -314,7 +314,7 @@ body.page-id-875 .wp-site-blocks {
 .the-event-block h2 {
   color: var(--white, #FFF);
   /* Heading 3 */
-  font-family: Space Grotesk;
+  font-family: Space Grotesk, sans-serif;
   font-size: 6.25rem;
   font-style: normal;
   font-weight: 700;
@@ -329,7 +329,7 @@ body.page-id-875 .wp-site-blocks {
 .the-event-block .item {
   display: block;
   color: var(--principal-black, #1E212B);
-  font-family: Space Grotesk;
+  font-family: Space Grotesk, sans-serif;
   font-size: 3.5rem;
   font-size: clamp(2rem, 6vw, 3.5rem);
   font-style: italic;
@@ -361,7 +361,7 @@ body.page-id-875 .wp-site-blocks {
 .sponsors-block h2 {
   color: var(--white, #FFF);
   /* Heading 3 */
-  font-family: Space Grotesk;
+  font-family: Space Grotesk, sans-serif;
   font-size: 6.25rem;
   font-style: normal;
   font-weight: 700;
@@ -377,7 +377,7 @@ body.page-id-875 .wp-site-blocks {
 .sponsors-block .gold h3, .sponsors-block .silver h3, .sponsors-block .bronze h3 {
   color: var(--white, #FFF);
   /* Heading 3 */
-  font-family: Space Grotesk;
+  font-family: Space Grotesk, sans-serif;
   font-size: 6.25rem;
   font-style: normal;
   font-weight: 700;
@@ -417,7 +417,7 @@ body.page-id-875 .wp-site-blocks {
 .faqs-block h3 {
   color: var(--white, #FFF);
   /* Heading 3 */
-  font-family: Space Grotesk;
+  font-family: Space Grotesk, sans-serif;
   font-size: 6.25rem;
   font-style: normal;
   font-weight: 700;
@@ -438,7 +438,7 @@ body.page-id-875 .wp-site-blocks {
 .faqs-block .wp-block-details summary {
   color: var(--white, #FFF);
   /* heading 2 */
-  font-family: Space Grotesk;
+  font-family: Space Grotesk, sans-serif;
   font-size: 2rem;
   font-style: normal;
   font-weight: 700;
@@ -465,7 +465,7 @@ body.page-id-875 .wp-site-blocks {
 .last-news-block h2 {
   color: var(--white, #FFF);
   /* Heading 3 */
-  font-family: Space Grotesk;
+  font-family: Space Grotesk, sans-serif;
   font-size: 6.25rem;
   font-style: normal;
   font-weight: 700;
@@ -526,7 +526,7 @@ body.page-id-875 .wp-site-blocks {
   padding-right: 1rem;
   color: var(--white, #FFF);
   /* Heading 5 */
-  font-family: Space Grotesk;
+  font-family: Space Grotesk, sans-serif;
   font-size: 3.5rem;
   font-style: normal;
   font-weight: 700;
